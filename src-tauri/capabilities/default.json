@@ -17,7 +17,9 @@
         { "url": "https://qlogo2.store.qq.com/*" },
         { "url": "https://photovideo.photo.qq.com/*" },
         { "url": "https://*.photo.store.qq.com/*" },
-        { "url": "https://*.qpic.cn/*" }
+        { "url": "https://*.qpic.cn/*" },
+        { "url": "https://mobile.qzone.qq.com/**" }
+
       ]
     }
   ]
