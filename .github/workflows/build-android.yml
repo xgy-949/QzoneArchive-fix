@@ -28,7 +28,7 @@ jobs:
           CARGO_TERM_VERBOSE: "true"
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: QzoneArchive-APK
           path: src-tauri/android/app/build/outputs/apk/release/app-release-unsigned.apk
