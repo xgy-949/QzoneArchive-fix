@@ -23,7 +23,7 @@ jobs:
         run: npm install --no-fund --no-audit
 
       - name: Build unsigned APK
-        run: npm run tauri android build -- --no-sign
+        run: npm run tauri android build
         env:
           CARGO_TERM_VERBOSE: "true"
 
